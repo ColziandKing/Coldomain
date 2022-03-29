@@ -30,7 +30,7 @@
 		"outerColor": [	91, 176, 156],
 		"innerColor": [ 40, 94, 68],
     "favoredReligion": "Christianity",
-		"uniqueName": "Feathered Serpent", "The Long Count", "Great Andean Road", "Sacrificial Captives", & "Colombian Coffee Region & Paramos",
+		"uniqueName": "Feathered Serpent", "The Long Count", "Great Andean Road", "Sacrificial Captives", & "Colombian Coffee Region Paramos",
 		"uniques": ["Receive 10% bonus toward correspondent Great Person when you build an unique specialist building in your Empire for the first time", "Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.", "Units ignore terrain costs when moving into any tile with Hills", "[-50]% maintenance on road & railroads",
 			"No Maintenance costs for improvements in [Hill] tiles", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]", "Double quantity of [Coffee] produced", "[+3 Food] from every [Mountain]"],
