@@ -217,5 +217,34 @@
 			   "[Military] units gain the [Besiege] promotion","+[50]% Production when constructing [Military] units [in all cities]"],
 
 		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Rant"]
+	},
+	{
+		"name": "Muana Islands",
+		"leaderName": "Magro Orsyerthum",
+		"adjective": ["Naguio"],
+		"startBias": ["Hill","Grassland"],
+  	        "preferredVictoryType": "Domination",
+
+		"startIntroPart1": "I Magro will make our civilization great by conquering or by diplomacy, there is no need to settle to the unknown when there is known.",
+		"startIntroPart2": "Will I be able to do it, I don't know? But this is amusing.",
+		
+		"declaringWar": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
+		"attacked": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
+		"defeated":  "I was currently at war but I guess I'm retiring.",
+		"introduction":  "Hahahaha! This is Magro your speaking too, I am not currently available. Please leave a message.",
+		"neutralHello": "Hahahahalo.",
+		"hateHello": "Hahahaha, what do you want?",
+		"hateLetsHearIt": "Hahahaha, lets hear it.",
+		"afterPeace": "Suspicion about you will not end.",
+		"tradeRequest": "Hahahaha, here.",
+
+	        "outerColor": [214,145,19],
+		"innerColor": [90,0,10],
+
+		"uniqueName": "Fight Dealer",
+		"uniques": ["[+100]% growth [in capital]", "[+5 Food] [in capital]", "[+2 Happiness] per [2] population [in all cities]",
+			    "Gain a free [Granary] [in all cities]", "[+2 Culture] [in all cities connected to capital]"],
+
+		"cities": ["Muana Islands"]
 	}
 ]
