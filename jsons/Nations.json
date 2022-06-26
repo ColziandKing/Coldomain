@@ -161,8 +161,8 @@
 		"startBias": ["Hill","Grassland"],
   	        "preferredVictoryType": "Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "I Magro will make our civilization great by conquering or by diplomacy, there is no need to settle to the unknown when there is known.",
+		"startIntroPart2": "Will I be able to do it, I don't know? But this is amusing.",
 		
 		"declaringWar": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
 		"attacked": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
@@ -215,5 +215,6 @@
 			   "[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]","[Military] units gain the [Blitz] promotion","[-40]% Culture cost of adopting new Policies",
 			   "[Military] units gain the [Besiege] promotion","+[50]% Production when constructing [Military] units [in all cities]"],
 
-		"cities": ["Handong","Dongolia","Tathekun","Kakhumutami","Loverelia","Sanchuk","Pingon"]
-	},
+		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Rant"]
+	}
+]
