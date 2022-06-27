@@ -315,7 +315,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 35},
-		"uniques": ["Double quantity of [Banana] produced","Double quantity of [Citrus] produced","Double quantity of [Sugar] produced"],
+		"uniques": ["Double quantity of [Citrus] produced","Double quantity of [Sugar] produced"],
 		"requiredTech": "Calendar"
 	},
 	{
