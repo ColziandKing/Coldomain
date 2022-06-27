@@ -239,7 +239,7 @@
 		"tradeRequest": "I have gifts, here.",
 
 	        "outerColor": [128,255,0],
-		"innerColor": [255,255,0],
+		"innerColor": [255,128,0],
 
 		"uniqueName": "Tropical Home",
 		"uniques": ["[+100]% growth [in capital]", "[+5 Food] [in capital]", "[+2 Happiness] per [2] population [in all cities]",
