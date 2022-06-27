@@ -238,7 +238,7 @@
 		"afterPeace": "Banned lifted but make sure to be aware. Almighty God watches over you.",
 		"tradeRequest": "I have gifts, here.",
 
-	        "outerColor": [255,255,204],
+	        "outerColor": [128,255,0],
 		"innerColor": [255,255,0],
 
 		"uniqueName": "Tropical Home",
