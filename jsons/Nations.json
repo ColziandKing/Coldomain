@@ -20,7 +20,7 @@
 		"cities": ["Colziane", "Cher-Hon Rishvas", "Rekle-Esieg", "Erion Faith", "Colvian", "Caballeron", "Lead-Diah", "Ravdon Mond", "Sabert Zhang", 
 			   "Colziantozant", "Adophant", "Coldelton", "Mega Complexcity", "Sheeno"],
 		"outerColor": [255,128,0],
-		"innerColor": [255,255,0], 
+		"innerColor": [0,102,102], 
 		"uniqueName": "Domain Rule",
 		"uniques": ["[+1 Science] from [All] tiles [in all cities]", "Starts with [Archery]","Starts with [Trapping]",
 			    "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
@@ -129,7 +129,7 @@
 		"leaderName": "Ullysia Ryden Gozanlithozz",
 		"adjective": ["Fullysian"],
 		"startBias": ["Grassland","Forest"],
-  	        "preferredVictoryType": "Diplomatic",
+  	        "preferredVictoryType": "Scientific",
 		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Feared woman with the strength like men. You Ullysia from Colziand is fierce in battles but at what cost? You do it so that it will end, war destroys each other but peace helps each other.",
@@ -151,7 +151,7 @@
 		"uniqueName": "Fullysianth Song",
 		"uniques": ["Starts with [Animal Husbandry]","Starts with [The Wheel]","[+1 Faith] from [All] tiles [in all cities]",
 			   "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>","[-40]% Culture cost of adopting new Policies",
-			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [10]% boost to great person generation"],
+			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [20]% boost to great person generation"],
 
 		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
 	},
@@ -216,35 +216,35 @@
 			   "[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]","[Military] units gain the [Blitz] promotion","[-40]% Culture cost of adopting new Policies",
 			   "[Military] units gain the [Besiege] promotion","+[50]% Production when constructing [Military] units [in all cities]"],
 
-		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Rant"]
+		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Raheiwlan"]
 	},
 	{
 		"name": "Muana Islands",
-		"leaderName": "Magro Orsyerthum",
-		"adjective": ["Naguio"],
-		"startBias": ["Hill","Grassland"],
-  	        "preferredVictoryType": "Domination",
+		"leaderName": "Muana Gonzaga",
+		"adjective": ["Muanas"],
+		"startBias": ["Coast"],
+  	        "preferredVictoryType": "Cultural",
 
-		"startIntroPart1": "I Magro will make our civilization great by conquering or by diplomacy, there is no need to settle to the unknown when there is known.",
-		"startIntroPart2": "Will I be able to do it, I don't know? But this is amusing.",
+		"startIntroPart1": "Aloha, in this tropical getaway! Part of the Domain, your civ provides execellent service to tourist in the Pacific. When your father considered you his own when he found you.",
+		"startIntroPart2": "Will you provide a vacation like no other?",
 		
-		"declaringWar": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
-		"attacked": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
-		"defeated":  "I was currently at war but I guess I'm retiring.",
-		"introduction":  "Hahahaha! This is Magro your speaking too, I am not currently available. Please leave a message.",
-		"neutralHello": "Hahahahalo.",
-		"hateHello": "Hahahaha, what do you want?",
-		"hateLetsHearIt": "Hahahaha, lets hear it.",
-		"afterPeace": "Suspicion about you will not end.",
-		"tradeRequest": "Hahahaha, here.",
+		"declaringWar": "Sorry but your despicable.",
+		"attacked": "We excel in the seas, the ocean if our grounds.",
+		"defeated":  "May you rest well.",
+		"introduction":  "Hiya aloha! This is Muana, daughter of Colziand. Welcome to my tropical home.",
+		"neutralHello": "Hiya aloha.",
+		"hateHello": "Hiya aloha. Your not allowed here.",
+		"hateLetsHearIt": "You want to lift your banned?",
+		"afterPeace": "Banned lifted but make sure to be aware. Almighty God watches over you.",
+		"tradeRequest": "I have gifts, here.",
 
-	        "outerColor": [214,145,19],
-		"innerColor": [90,0,10],
+	        "outerColor": [255,255,204],
+		"innerColor": [255,255,0],
 
-		"uniqueName": "Fight Dealer",
+		"uniqueName": "Tropical Home",
 		"uniques": ["[+100]% growth [in capital]", "[+5 Food] [in capital]", "[+2 Happiness] per [2] population [in all cities]",
 			    "Gain a free [Granary] [in all cities]", "[+2 Culture] [in all cities connected to capital]"],
 
-		"cities": ["Muana Islands"]
+		"cities": ["Muana Maine","Yellow Fruit","Grove Island","Atoll Islets"]
 	}
 ]
