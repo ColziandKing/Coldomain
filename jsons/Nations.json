@@ -115,7 +115,7 @@
 		"innerColor": [61, 0, 109],
 
 		"uniqueName": "Coastal Express",
-		"uniques": ["Starts with [Pottery]","Starts with [Sailing]", "[+1 Food, +1 Gold] from [All] tiles [in all cities]","+[100]% [Gold] [in capital]",
+		"uniques": ["Starts with [Pottery]","Starts with [Sailing]", "[+1 Food, +1 Gold] from [All] tiles [in all cities]","[+100]% [Gold] [in capital]",
 			    "Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			  "Units ignore terrain costs when moving into any tile with Mountain","[-40]% Culture cost of adopting new Policies",
 			    "[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
