@@ -156,5 +156,97 @@
 			   "Gain [90] Influence with a [Great Person] gift to a City-State", "When declaring friendship, both parties gain a [20]% boost to great person generation"],
 
 		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
+	},
+  {
+		"name": "Magroonaguio",
+		"leaderName": "Magro Orsyerthum",
+		"adjective": ["Naguio"],
+		"startBias": ["Hill","Grassland"],
+  	        "preferredVictoryType": "Domination",
+
+		"startIntroPart1": "I Magro will make our civilization great by conquering or by diplomacy, there is no need to settle to the unknown when there is known.",
+		"startIntroPart2": "Will I be able to do it, I don't know? But this is amusing.",
+		
+		"declaringWar": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
+		"attacked": "Hahahaha! Fool, see my might because its ours. Hahahaha!",
+		"defeated":  "I was currently at war but I guess I'm retiring.",
+		"introduction":  "Hahahaha! This is Magro your speaking too, I am not currently available. Please leave a message.",
+		"neutralHello": "Hahahahalo.",
+		"hateHello": "Hahahaha, what do you want?",
+		"hateLetsHearIt": "Hahahaha, lets hear it.",
+		"afterPeace": "Suspicion about you will not end.",
+		"tradeRequest": "Hahahaha, here.",
+
+	        "outerColor": [214,145,19],
+		"innerColor": [90,0,10],
+
+		"uniqueName": "Fight Dealer",
+		"uniques": ["Cannot build [Settler] units","New [Military] units start with [50] Experience","[+30]% Strength <vs [Barbarian] units>",
+			    "Receive a free [Great General] when you discover [Horseback Riding]","Great General provides double combat bonus", 
+			    "Receive triple Gold from Barbarian encampments and pillaging Cities", "[Great General] is earned [50]% faster","[-40]% Culture cost of adopting new Policies",
+			    "\"Borrows\" city names from other civilizations in the game","[+30]% Strength for cities <when attacking>"],
+
+		"cities": ["Magroonaguio"]
+	},
+  {
+		"name": "Mogluran",
+		"leaderName": "Yanzer Hirothome",
+		"adjective": ["Hanites"],
+		"startBias": ["Coast","Oasis"],
+  	        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Buddhism",
+
+		"startIntroPart1": "We have been fighting for years now, we will remember the past but change our old ways.",
+		"startIntroPart2": "I hope we can alliance ourselves with many good and strong people, lead us son of greatness. I hear an empire called the rule, maybe they can help us.",
+
+		"declaringWar": "Your a threat we will stop you for the world.",
+		"attacked": "I will take over your land and make sure to rule it better.",
+		"defeated":  "We wanted a better future, but you destroyed us.",
+		"introduction":  "Bon, Welcome leader, are your good?",
+		"neutralHello": "Hello There.",
+		"hateHello": "No, I don't wanna hear it.?",
+		"hateLetsHearIt": "Now what?.",
+		"afterPeace": "I hope we go our seperate ways and find the future we hope for.",
+		"tradeRequest": "We have an offer.",
+
+	        "outerColor": [37,56,123],
+		"innerColor": [227,225,44],
+
+		"uniqueName": "Multiple Strengths",
+		"uniques": ["[+2 Science] in capital", "[+1 Science] in all cities","[+1 Culture] from every [Pasture]","[+1 Food] from every [Pasture]",
+			   "[+10]% Production when constructing [Military] units [in all cities]","[+1 Gold] from every [Horses]","[+1 Production] from every [Horses]",
+			   "[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]","[Military] units gain the [Blitz] promotion","[-40]% Culture cost of adopting new Policies",
+			   "[Military] units gain the [Besiege] promotion","[+50]% Production when constructing [Military] units [in all cities]"],
+
+		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Raheiwlan"]
+	},
+	{
+		"name": "Overseas Territory of the Domain",
+		"leaderName": "Muana Gonzaga",
+		"adjective": ["Muanas"],
+		"startBias": ["Coast"],
+  	        "preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "Aloha, in this tropical getaway! Part of the Domain, your civ provides execellent service to tourist in the Pacific. When your father considered you his own when he found you.",
+		"startIntroPart2": "Will you provide a vacation like no other?",
+		
+		"declaringWar": "Sorry but your despicable.",
+		"attacked": "We excel in the seas, the ocean if our grounds.",
+		"defeated":  "May you rest well.",
+		"introduction":  "Hiya aloha! This is Muana, daughter of Colziand. Welcome to my tropical home.",
+		"neutralHello": "Hiya aloha.",
+		"hateHello": "Hiya aloha. Your not allowed here.",
+		"hateLetsHearIt": "You want to lift your banned?",
+		"afterPeace": "Banned lifted but make sure to be aware. Almighty God watches over you.",
+		"tradeRequest": "I have gifts, here.",
+
+	        "outerColor": [128,255,0],
+		"innerColor": [255,128,0],
+
+		"uniqueName": "Tropical Home",
+		"uniques": ["[+100]% growth [in capital]", "[+5 Food] [in capital]", "[+2 Happiness] per [2] population [in all cities]",
+			    "Gain a free [Granary] [in all cities]", "[+2 Culture] [in all cities connected to capital]"],
+
+		"cities": ["Muana Maine","Yellow Fruit","Grove Island","Atoll Islets"]
 	}
 ]
