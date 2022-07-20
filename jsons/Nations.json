@@ -27,7 +27,7 @@
 			    "100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)",
 			    "Double Happiness from Natural Wonders", "Tile yields from Natural Wonders doubled","[-80]% Culture cost of adopting new Policies",
 			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+100] XP",
-			    "[Military] units gain the [Great Generals I] promotion"]
+			    "[Military] units gain the [Great Generals II] promotion"]
 	},
 	{
 		"name": "Salumi",
@@ -122,7 +122,7 @@
 			    "[+3 Gold, +1 Culture] from every [Land Trade Route (Food)]","[+1 Gold] from every [Land Trade Route (Production)]",
 			"[+1 Gold] from every [Land Trade Route (Gold)]","[+1 Gold] from every [Sea Trade Route (Food)]","[-40]% Culture cost of adopting new Policies",
 			"[+1 Gold] from every [Sea Trade Route (Production)]","[+1 Gold] from every [Sea Trade Route (Gold)]",
-			   "[Military] units gain the [Great Generals II] promotion"],
+			   "[Military] units gain the [Great Generals I] promotion"],
 
 		"cities": ["Buenlyssia","Gabina","Nicono","Pathrica","Diwayville","Jambini","Cassia","Lanita Yella"]
 	},
