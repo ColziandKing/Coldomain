@@ -3,7 +3,7 @@
 		"name": "Colziand",
 		"leaderName": "Raymond Sheen Caballero",
 		"adjective": ["Colziand"],
-          	"startBias": ["Coast","Grassland"],
+          	"startBias": ["Grassland"],
 		"preferredVictoryType": "Diplomatic",
 	  	"favoredReligion": "Christianity",
 	  
@@ -22,18 +22,17 @@
 		"outerColor": [0,102,102],
 		"innerColor": [250,250,15], 
 		"uniqueName": "Domain Rule",
-		"uniques": ["[+1 Science] from [All] tiles [in all cities]", "Starts with [Archery]","Starts with [Trapping]",
+		"uniques": ["[+1 Science] from [All] tiles [in all cities]","[Military] units gain the [Great Generals II] promotion"
 			    "[-50]% City-State Influence degradation", "City-State Influence recovers at twice the normal rate", "City-State territory always counts as friendly territory",
 			    "100 Gold for discovering a Natural Wonder (bonus enhanced to 500 Gold if first to discover it)",
-			    "Double Happiness from Natural Wonders", "Tile yields from Natural Wonders doubled","[-80]% Culture cost of adopting new Policies",
-			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+100] XP",
-			    "[Military] units gain the [Great Generals II] promotion"]
+			    "Double Happiness from Natural Wonders", "Tile yields from Natural Wonders doubled","[-50]% Culture cost of adopting new Policies",
+			    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+50] XP"]
 	},
 	{
 		"name": "Salumi",
 		"leaderName": "Sarita Sephira Saldrigal",
 		"adjective": ["Salumian"],
-		"startBias": ["Plain","Jungle"],
+		"startBias": ["Hills"],
   	        "preferredVictoryType": "Cultural",
 		"favoredReligion": "Christianity",
 
@@ -63,7 +62,7 @@
 		"name": "Salveo",
 		"leaderName": "Warren Gradllium Fe-Norivest",
 		"adjective": ["Salveolites"],
-		"startBias": ["Hill"],
+		"startBias": ["Desert"],
   	        "preferredVictoryType": "Domination",
 		"favoredReligion": "Christianity",
 
@@ -130,7 +129,7 @@
 		"name": "Fullysia",
 		"leaderName": "Ullysia Ryden Gozanlithozz",
 		"adjective": ["Fullysian"],
-		"startBias": ["Grassland","Forest"],
+		"startBias": ["Forest"],
   	        "preferredVictoryType": "Scientific",
 		"favoredReligion": "Christianity",
 
@@ -161,7 +160,7 @@
 		"name": "Rhuffelj",
 		"leaderName": "Magro Orsyerthum",
 		"adjective": ["Naguio"],
-		"startBias": ["Hill","Grassland"],
+		"startBias": ["Plains"],
   	        "preferredVictoryType": "Domination",
 
 		"startIntroPart1": "I Magro will make our civilization great by conquering or by diplomacy, there is no need to settle to the unknown when there is known.",
@@ -192,7 +191,7 @@
 		"name": "Orlegciuhn",
 		"leaderName": "Yanzer Hirothome",
 		"adjective": ["Hanites"],
-		"startBias": ["Coast","Oasis"],
+		"startBias": ["Coast"],
   	        "preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Buddhism",
 
@@ -248,5 +247,34 @@
 			    "Gain a free [Granary] [in all cities]", "[+2 Culture] [in all cities connected to capital]"],
 
 		"cities": ["Muana Maine","Yellow Fruit","Grove Island","Atoll Islets"]
+	},
+	{
+		"name": "Independent Nations Association",
+		"leaderName": "Muana Gonzaga",
+		"adjective": ["Muanas"],
+		"startBias": ["Coast"],
+  	        "preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "Aloha, in this tropical getaway! Part of the Domain, your civ provides execellent service to tourist in the Pacific. When your father considered you his own when he found you.",
+		"startIntroPart2": "Will you provide a vacation like no other?",
+		
+		"declaringWar": "Sorry but your despicable.",
+		"attacked": "We excel in the seas, the ocean if our grounds.",
+		"defeated":  "May you rest well.",
+		"introduction":  "Hiya aloha! This is Muana, daughter of Colziand. Welcome to my tropical home.",
+		"neutralHello": "Hiya aloha.",
+		"hateHello": "Hiya aloha. Your not allowed here.",
+		"hateLetsHearIt": "You want to lift your banned?",
+		"afterPeace": "Banned lifted but make sure to be aware. Almighty God watches over you.",
+		"tradeRequest": "I have gifts, here.",
+
+	        "outerColor": [128,255,0],
+		"innerColor": [255,128,0],
+
+		"uniqueName": "Tropical Home",
+		"uniques": ["[+100]% growth [in capital]", "[+5 Food] [in capital]", "[+2 Happiness] per [2] population [in all cities]",
+			    "Gain a free [Granary] [in all cities]", "[+2 Culture] [in all cities connected to capital]"],
+
+		"cities": ["Taiwan","Saint Helena","Faroe Islands","Atoll Islets"]
 	}
 ]
