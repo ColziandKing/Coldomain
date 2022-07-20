@@ -158,7 +158,7 @@
 		"cities": ["Reigna","Thraymond","Proviencia","Liencia","Sheenran"]
 	},
   {
-		"name": "Magroonaguio",
+		"name": "Rhuffelj",
 		"leaderName": "Magro Orsyerthum",
 		"adjective": ["Naguio"],
 		"startBias": ["Hill","Grassland"],
@@ -186,10 +186,10 @@
 			    "Receive triple Gold from Barbarian encampments and pillaging Cities", "[Great General] is earned [50]% faster","[-40]% Culture cost of adopting new Policies",
 			    "\"Borrows\" city names from other civilizations in the game","[+30]% Strength for cities <when attacking>"],
 
-		"cities": ["Magroonaguio"]
+		"cities": ["Magroonaguio"]Mogluran
 	},
   {
-		"name": "Mogluran",
+		"name": "Orlegciuhn",
 		"leaderName": "Yanzer Hirothome",
 		"adjective": ["Hanites"],
 		"startBias": ["Coast","Oasis"],
@@ -218,7 +218,7 @@
 			   "[+1 Gold] from every [Iron]","[+1 Production] from every [Iron]","[Military] units gain the [Blitz] promotion","[-40]% Culture cost of adopting new Policies",
 			   "[Military] units gain the [Besiege] promotion","[+50]% Production when constructing [Military] units [in all cities]"],
 
-		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Raheiwlan"]
+		"cities": ["Handong","Dongolia","Tathekun","Winssefa","Eshagor","Rhuffelj","Orleghium","Raheiwlan"]Yorkshire
 	},
 	{
 		"name": "Overseas Territory of the Domain",
