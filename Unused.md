@@ -120,3 +120,56 @@
 
 		"cities": ["Taiwan","Saint Helena","Faroe Islands","Atoll Islets"]
 	}
+{
+		"name": "Obelisk",
+		"replaces": "Monument",
+		"uniqueTo": "Mogluran",
+		"culture": 2,
+		"faith": 2,
+		"cost": 50,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+	},
+{
+		"name": "Pavillion",
+		"replaces": "Theatre",
+		"uniqueTo": "Mogluran",
+		"happiness": 2,
+		"culture": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 3,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	//Muana Islands//
+	{
+		"name": "Hacienda",
+		"uniqueTo": "Muana Islands",
+		"gold": 3,
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 35},
+		"uniques": ["Double quantity of [Citrus] produced","Double quantity of [Sugar] produced"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Resort",
+		"uniqueTo": "Muana Islands",
+		"gold": 5,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 35},
+		"uniques": ["[+2 Culture] [in this city]","[+2 Happiness] [in this city]","Double quantity of [Crab] produced"],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Aqua Center",
+		"uniqueTo": "Muana Islands",
+		"science": 2,
+		"specialistSlots": {"Scientist": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"science": 20},
+		"uniques": ["[+2 Faith] [in this city]","[+2 Happiness] [in this city]","Double quantity of [Fish] produced"],
+		"requiredTech": "Optics"
+	}
