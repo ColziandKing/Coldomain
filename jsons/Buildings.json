@@ -51,7 +51,7 @@
   {
 		"name": "Pyramid",
 		"replaces": "Shrine",
-		"uniqueTo": "Salveo,
+		"uniqueTo": "Salveo",
 		"faith": 2,
 		"science": 2,
 		"cost": 40,
@@ -233,7 +233,7 @@
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
 			"[+1 Gold] from [Silk] tiles [in this city]", "[+1 Gold] from [Salt] tiles [in this city]",
-			   "[+1 Gold] from [Marble] tiles [in this city]", "[+1 Gold] from [Incense] tiles [in this city]",],
+			   "[+1 Gold] from [Marble] tiles [in this city]", "[+1 Gold] from [Incense] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
 	//Mogluran//
