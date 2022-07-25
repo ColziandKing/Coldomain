@@ -173,3 +173,39 @@
 		"uniques": ["[+2 Faith] [in this city]","[+2 Happiness] [in this city]","Double quantity of [Fish] produced"],
 		"requiredTech": "Optics"
 	}
+{
+		"name": "Ziggurat",
+		"replaces": "Temple",
+		"uniqueTo": "Salveo", 
+		"maintenance": 3,
+		"faith": 1,
+		"science": 1,
+		"specialistSlots": {"Scientist": 1},
+		"cost":120,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Faith] from [River] tiles [in this city]","1 Scientist slot"],
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Construction"
+	},
+		{
+		"name": "Slave Market",
+		"replaces": "Market",
+		"uniqueTo": "Salveo",
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"gold": 4,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Free [Worker] appears"],
+		"requiredTech": "Currency"
+	},
+	    {
+		"name": "Smeltery",
+        "replaces": "Forge",
+		"uniqueTo": "Salveo",
+        "maintenance": 1,
+		"production": 1,
+        "hurryCostModifier": 25,
+        "requiredTech": "Iron Working",
+        "uniques": ["Provides [2] [Iron]","[+15]% Production when constructing [Spaceship part] units [in this city]",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
