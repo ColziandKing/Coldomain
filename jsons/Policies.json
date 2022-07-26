@@ -1,0 +1,46 @@
+[
+  {
+		"name": "Concepts",
+		"era": "Classical era",
+		"uniques": ["[+5 Faith, +5 Gold, +5 Culture, +5 Happiness, +5 Production, +5 Science] from [All] tiles [in all cities]"],
+		"policies": [
+			{
+				"name": "Cultural Centers",
+				"uniques": ["[+10 Culture] from [All] tiles [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Glistering Gold",
+				"uniques": ["[+10 Gold] from [All] tiles [in all cities]"],
+				"row": 1,
+				"column": 4
+			},
+						{
+				"name": "Flourishing Faith",
+				"uniques": ["[+10 Faith] from [All] tiles [in all cities]"],
+				"requires": ["Cultural Centers", "Glistering Gold"],
+				"row": 2,
+				"column": 2
+			},
+						{
+				"name": "Productive Power",
+				"uniques": ["[+10 Production] from [All] tiles [in all cities]"],
+				"requires": ["Glistering Gold"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Scientific Success",
+				"uniques": ["[+10 Science] from [All] tiles [in all cities]"],
+				"requires": ["Flourishing Faith"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Concepts Complete",
+				"uniques": ["[+10 Happiness] from [All] tiles [in all cities]"]
+			}
+		]
+	}
+  ]
