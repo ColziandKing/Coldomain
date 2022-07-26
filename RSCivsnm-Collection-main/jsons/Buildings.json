@@ -204,7 +204,7 @@
         "cost": 75,
         "hurryCostModifier": 25,
         "maintenance": 1,
-		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"],
+		"uniques": ["Destroyed when the city is captured","New [Military] units start with [15] Experience [in this city]","All newly-trained [Sword] units [in this city] receive the [March] promotion"],
         "requiredTech": "Bronze Working"
     },
 	    {
@@ -309,7 +309,7 @@
 	"isNationalWonder": true,
 	"cannotBeBuiltWith": "Palace",
 	"requiredBuilding": "Palace",
-	"uniques": ["Will not be displayed in Civilopedia","Provides [5] [Guard]"]
+	"uniques": ["Will not be displayed in Civilopedia","Provides [5] [Pikeman]"]
 },
 {
         "name": "Call the Crusade",
