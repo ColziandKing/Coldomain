@@ -34,6 +34,8 @@ industrial and scientific civs
 			   
 			   
 			   
+		"[+3 Gold] <for [Military] units> <for every [1] [Remaining [Major] Civilizations]> <when number of [Remaining [City-states] Civilizations] is between [1] and [10]>",
+		"[+30 Gold] <for [Military] units> <when number of [Remaining [City-states] Civilizations] is more than [10]>",
 		
 			   for de civ
 			   great personification, Astronomy"Great Sage", Botany"Unused", Chemistry"Great Scientist", Engineering"Great Engineer", Education"Great Administrator", Steel"Great General", Currency"Great Merchant" 
