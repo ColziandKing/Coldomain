@@ -1,0 +1,96 @@
+{
+    "name": "Global uniques",
+    "uniques": [
+    // 快乐惩罚
+    "[-50]% growth [in all cities] <when between [-10] and [-1] Happiness>",
+    "[-75]% growth [in all cities] <when between [-15] and [-11] Happiness>",
+    "Nullifies Growth [in all cities] <when below [-15] Happiness>",
+    "[-50]% [Production] [in all cities] <when below [-15] Happiness>",
+    "[-25]% Strength <for [Military] units>  <when below [-15] Happiness>",
+    "Rebel units may spawn <when below [-15] Happiness>",
+    "Cannot build [Settler] units <when below [-10] Happiness>",
+    
+    // 厌战度
+    "Provides [1] [Warfare Aversion Level] <when at war>",
+    "Provides [1] [Warfare Aversion Level]  <when below [0] [Warfare Aversion Level]>",
+    "Instantly consumes [10] [Warfare Aversion Level] <upon conquering a city> <when above [10] [Warfare Aversion Level]>",
+    
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [0] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [10] [Warfare Aversion Level]>",  
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [30] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [50] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [70] [Warfare Aversion Level]>",
+    "Provides [-1] [Warfare Aversion Level] <when not at war> <when above [100] [Warfare Aversion Level]>",
+    
+    //厌战度（10，30）
+    "[+10]% Unhappiness from [Population] [in all cities] <when above [15] [Warfare Aversion Level]> <(modified by game speed)>",
+   
+    //厌战度（30，50）
+    "[-15]% [Gold] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [45] [Warfare Aversion Level]> <(modified by game speed)>",
+    
+    //厌战度（50，70）
+    "[-5]% [Gold] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-20]% [Production] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [75] [Warfare Aversion Level]> <(modified by game speed)>",    
+    
+    //厌战度（70，100）
+    "[-5]% [Gold] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
+    "[-5]% [Production] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [105] [Warfare Aversion Level]> <(modified by game speed)>", 
+    "Rebel units may spawn <when above [105] [Warfare Aversion Level]> <(modified by game speed)>",     
+    
+    //厌战度（100，+∞）
+    "[-5]% [Gold] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
+    "[-5]% [Production] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[+5]% Unhappiness from [Population] [in all cities] <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",    
+    "[-30]% Strength <for [Military] units> <when above [150] [Warfare Aversion Level]> <(modified by game speed)>",
+    
+    // 大航海家
+    "Enables [Great Admiral] units to enter ocean tiles",
+    "Enables [Lee Sunshin] units to enter ocean tiles",
+    "Enables [Themistocles] units to enter ocean tiles",
+    
+    // 事件
+    "Triggers a [New Era] event <upon entering a new era> <after turn number [5]>",
+    
+    // 特殊军事伟人项目
+    "Instantly consumes [20] [Feat] <upon constructing [Classical Era Special Military Great Person Project]>",
+    "Instantly consumes [20] [Feat] <upon constructing [Medieval era Special Military Great Person Project]>"
+    
+    
+    // 宗教
+    "[+2]% Yield from every [{non-[Wonder]} {Faith}] <after adopting [Heal the World and Guide the Lost]>"
+    
+    // 南蛮入侵
+    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Gold] <on [Barbarian Breakout] game speed>",
+    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Science] <on [Barbarian Breakout] game speed>",
+    "Earn [50]% of killed [Barbarian] unit's [Strength] as [Faith] <on [Barbarian Breakout] game speed>",
+    "Adopt [Honor] <on [Barbarian Breakout] game speed>",
+    
+    // 荷兰
+    "[-5 Gold] <with [Infrastructure Investment]>",
+    "[+5 Gold] <with [Infrastructure Investment]> <for [The Netherlands] Civilizations>",
+    
+    "[-5 Gold] <with [Productive Investment]>",
+    "[+5 Gold] <with [Productive Investment]> <for [The Netherlands] Civilizations>",
+    
+    "[-5 Gold] <with [Research Investment]>",
+    "[+5 Gold] <with [Research Investment]> <for [The Netherlands] Civilizations>", 
+       
+    "[-5 Gold] <with [Entertainment Investment]>",
+    "[+5 Gold] <with [Entertainment Investment]> <for [The Netherlands] Civilizations>",  
+    
+    "[-5 Gold] <with [Grain Investment]>",
+    "[+5 Gold] <with [Grain Investment]> <for [The Netherlands] Civilizations>",
+    
+    "[-50]% Strength <for [Embarked] units> <when attacking> <when fighting in [Water] tiles>"
+    "[-1] Range <for [{Embarked} {Ranged}] units>"
+    
+    "[-1] Movement <for [non-[China]] units> <in [The Great Wall of China] tiles>",
+    
+    // 外交胜利
+    "Provides [1] [Diplomatic Point] <when not at war>",
+    
+    ]
+}
