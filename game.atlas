@@ -1,3 +1,44 @@
+gamer.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Covert Action
+  rotate: false
+  xy: 1452, 532
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Creative Expression1
+  rotate: false
+  xy: 1660, 532
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Cult of Personality1
+  rotate: false
+  xy: 620, 388
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Cultural Revolution1
+  rotate: false
+  xy: 828, 388
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+PolicyIcons/Double Agents
+  rotate: false
+  xy: 1660, 324
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+
 game7.png
 size: 2048, 2048
 format: RGBA8888
@@ -16,7 +57,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyIcons/Five-Year Plan
+PolicyIcons/Five-Year Plan1
   rotate: false
   xy: 1298, 691
   size: 50, 50
@@ -36,7 +77,7 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyIcons/Young Pioneers
+PolicyIcons/Young Pioneers1
   rotate: false
   xy: 758, 4
   size: 50, 50
@@ -49,7 +90,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyIcons/People's Army
+PolicyIcons/People's Army1
   rotate: false
   xy: 420, 1842
   size: 200, 200
@@ -124,42 +165,42 @@ PolicyIcons/Artistic Genius
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Avant Garde
+PolicyIcons/Avant Garde1
   rotate: false
   xy: 964, 731
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Capitalism
+PolicyIcons/Capitalism1
   rotate: false
   xy: 959, 615
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Clausewitz's Legacy
+PolicyIcons/Clausewitz's Legacy1
   rotate: false
   xy: 954, 557
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Colonialism
+PolicyIcons/Colonialism1
   rotate: false
   xy: 1092, 1044
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Communism
+PolicyIcons/Communism1
   rotate: false
   xy: 1092, 986
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Consulates
+PolicyIcons/Consulates1
   rotate: false
   xy: 1521, 1086
   size: 50, 50
@@ -187,7 +228,7 @@ PolicyIcons/Cultural Exchange
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Elite Forces
+PolicyIcons/Elite Forces1
   rotate: false
   xy: 1150, 968
   size: 50, 50
