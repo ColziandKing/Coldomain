@@ -661,6 +661,81 @@
             }
         ]
     },
+	{
+		"name": "Aesthetics",
+		"era": "Classical era",
+		"uniques": ["[Great Artist] is earned [33]% faster"],
+		"policies": [
+			{
+				"name": "Cultural Centers",
+				"uniques": ["[+100]% Production when constructing [Monument] buildings [in all cities]",
+					"[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
+					"[+100]% Production when constructing [Opera House] buildings [in all cities]",
+					"[+100]% Production when constructing [Museum] buildings [in all cities]",
+					"[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Fine Arts",
+				"uniques": ["[50]% of excess happiness converted to [Culture]"],
+				"row": 1,
+				"column": 4
+			},
+						{
+				"name": "Flourishing of the Arts",
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"requires": ["Cultural Centers", "Fine Arts"],
+				"row": 2,
+				"column": 3
+			},
+						{
+				"name": "Artistic Genius",
+				"uniques": ["Free [Great Artist] appears"],
+				"requires": ["Fine Arts"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Cultural Exchange",
+				"uniques": ["[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"],
+				"requires": ["Flourishing of the Arts"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Aesthetics Complete",
+				"uniques": ["[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+			}
+		]
+	},
+	    {
+        "name": "Ideology",
+        "era": "Modern era",
+        "uniques": [
+            "[+1 Gold] from every specialist [in all cities] <after adopting [Autocracy]>",
+            "[+2 Production, +2 Science] [in all cities] <after adopting [Autocracy]>",
+
+            "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Freedom]>",
+            "[+2 Production, +2 Science] [in all cities] <after adopting [Freedom]>",
+
+            "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Order]>",
+            "[+1 Gold] from every specialist [in all cities] <after adopting [Order]>",
+        ],
+        "policies": [	
+            {
+                "name": "Five-Year Plan",
+                "uniques": [
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]","Provides [1] [Policies]"
+                ],
+                "requires": ["Skyscrapers"],
+                "row": 3,
+                "column": 1
+            },
+        ]
+	    },
 	/*
 	{
         "name": "Revolution",
