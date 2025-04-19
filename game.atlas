@@ -1,3 +1,28 @@
+game8.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Five-Year Plan
+  rotate: false
+  xy: 1298, 691
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+
+gamer.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Young Pioneers
+  rotate: false
+  xy: 758, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 
 game3.png
 size: 2048, 2048
