@@ -162,7 +162,7 @@ PolicyIcons/Fine Arts
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Five-Year Plan
+PolicyIcons/Five-Year Plan1
   rotate: false
   xy: 1324, 983
   size: 50, 50
@@ -386,7 +386,7 @@ PolicyIcons/Wagon Trains
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Young Pioneers
+PolicyIcons/Young Pioneers1
   rotate: false
   xy: 1652, 796
   size: 50, 50
