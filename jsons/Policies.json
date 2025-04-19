@@ -713,27 +713,89 @@
         "name": "Ideology",
         "era": "Modern era",
         "uniques": [
-            "[+1 Gold] from every specialist [in all cities] <after adopting [Autocracy]>",
-            "[+2 Production, +2 Science] [in all cities] <after adopting [Autocracy]>",
+            "[+1 Gold] from every specialist [in all cities] <after adopting [Nationalism]>",
+            "[+2 Production, +2 Science] [in all cities] <after adopting [Nationalism]>",
 
-            "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Freedom]>",
-            "[+2 Production, +2 Science] [in all cities] <after adopting [Freedom]>",
+            "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Individualism]>",
+            "[+2 Production, +2 Science] [in all cities] <after adopting [Individualism]>",
 
-            "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Order]>",
-            "[+1 Gold] from every specialist [in all cities] <after adopting [Order]>",
+            "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Internationalism]>",
+            "[+1 Gold] from every specialist [in all cities] <after adopting [Internationalism]>",
         ],
         "policies": [	
+            {
+                "name": "Lightning Warfare",
+                "uniques": [
+                    "[+1] Movement <for [Gunpowder] units>",
+                    "[+1] Movement <for [Armored] units>",
+                    "[+1] Movement <for [Great General] units>",
+                    "[+1] Movement <for [Worker] units>",
+			"Comment [BLITZKRIEG!!!]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Third Alternative",
+                "uniques": [
+                    "Double quantity of [Horses] produced",
+                    "Double quantity of [Iron] produced",
+                    "Double quantity of [Coal] produced",
+                    "Double quantity of [Oil] produced",
+                    "Double quantity of [Aluminum] produced",
+                    "Double quantity of [Uranium] produced",
+                    "[+5 Science, +5 Food] [in capital]"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Young Pioneers",
+                "uniques": [
+                    "[+1 Happiness] from every [Workshop]",
+                    "[+1 Happiness] from every [Factory]",
+                    "[+1 Happiness] from every [Solar Plant]",
+                    "[+1 Happiness] from every [Nuclear Plant]",
+                    "[+1 Happiness] from every [Hydro Plant]"
+                ],
+                "requires": ["Lightning Warfare", "Third Alternative"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "People's Army",
+                "uniques": [
+                    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+2 Science, +2 Culture] from every [Military Academy]",
+                    "[+2 Science, +2 Culture] from every [Armory]",
+                ],
+                "requires": ["Young Pioneers"],
+                "row": 3,
+                "column": 2
+            },
             {
                 "name": "Five-Year Plan",
                 "uniques": [
                     "[+2 Production] [in all cities]",
                     "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]","Provides [1] [Policies]"
+                    "[+1 Production] from every [Quarry]",
                 ],
-                "requires": ["Skyscrapers"],
+                "requires": ["Young Pioneers"],
                 "row": 3,
-                "column": 1
+                "column": 4
             },
+  {
+            "name": "Ideology Complete",
+            "uniques": [
+                    "Gain a free [Enhancer] belief <after founding a religion>",
+                    "Gain a free [Pantheon] belief <after founding a religion>",
+            "[-100]% maintenance costs <for [Mounted] units>",
+        "[-100]% maintenance costs <for [Armor] units>",
+        "[Mounted] units gain the [Volley] promotion",
+        "[Armor] units gain the [Volley] promotion",
+            ],
+        },
         ]
 	    },
 	/*
