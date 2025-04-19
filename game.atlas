@@ -1,3 +1,16 @@
+game7.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyBranchIcons/Ideology
+  rotate: false
+  xy: 1164, 734
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+
 game8.png
 size: 2048, 2048
 format: RGBA8888
@@ -6,6 +19,13 @@ repeat: none
 PolicyIcons/Five-Year Plan
   rotate: false
   xy: 1298, 691
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Aesthetics
+  rotate: false
+  xy: 914, 48
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
