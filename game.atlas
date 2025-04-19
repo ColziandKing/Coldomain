@@ -3,7 +3,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyBranchIcons/Ideology
+PolicyBranchIcons/Countermeasures
   rotate: false
   xy: 1164, 734
   size: 50, 50
@@ -62,28 +62,28 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-PolicyIcons/Free Mind
+PolicyIcons/Free Mind1
   rotate: false
   xy: 212, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Futurism
+PolicyIcons/Futurism1
   rotate: false
   xy: 628, 1668
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Gunboat Diplomacy
+PolicyIcons/Gunboat Diplomacy1
   rotate: false
   xy: 1044, 1460
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Ideology
+PolicyIcons/Ideology1
   rotate: false
   xy: 212, 212
   size: 200, 200
@@ -97,14 +97,14 @@ PolicyIcons/Industrial Espionage
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Iron Fist
+PolicyIcons/Iron Fist1
   rotate: false
   xy: 836, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicyIcons/Lightning Warfare
+PolicyIcons/Lightning Warfare1
   rotate: false
   xy: 1252, 836
   size: 200, 200
