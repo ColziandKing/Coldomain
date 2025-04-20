@@ -786,6 +786,8 @@
                     "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion",
             ],
         },
+	]
+	    },	    
 	{
         "name": "Revolution",
 	"era": "Ancient era",
