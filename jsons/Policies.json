@@ -787,5 +787,158 @@
             ],
         },
         ]
+	    },{
+		"name": "Infrastructure",
+		"era": "Renaissance era",
+		"uniques": ["[Great Artist] is earned [33]% faster","Enables conversion of city production to [Culture]"],
+		"policies": [
+			{
+				"name": "Cultural Centers",
+				"uniques": ["[+100]% Production when constructing [Monument] buildings [in all cities]",
+					"[+100]% Production when constructing [Amphitheater] buildings [in all cities]",
+					"[+100]% Production when constructing [Opera House] buildings [in all cities]",
+					"[+100]% Production when constructing [Museum] buildings [in all cities]",
+					"[+100]% Production when constructing [Broadcast Tower] buildings [in all cities]"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Fine Arts",
+				"uniques": ["[50]% of excess happiness converted to [Culture]"],
+				"row": 1,
+				"column": 4
+			},
+						{
+				"name": "Flourishing of the Arts",
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]","Empire enters golden age"],
+				"requires": ["Cultural Centers", "Fine Arts"],
+				"row": 2,
+				"column": 3
+			},
+						{
+				"name": "Artistic Genius",
+				"uniques": ["Free [Great Artist] appears"],
+				"requires": ["Fine Arts"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Cultural Exchange",
+				"uniques": ["[+20]% [Culture] from every [Museum]","[+20]% [Culture] from every [Opera House]","[+20]% [Culture] from every [Broadcast Tower]"],
+				"requires": ["Flourishing of the Arts"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Infrastructure Complete",
+				"uniques": ["[+4 Culture] from every [Landmark]","Free Social Policy","May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"]
+			}
+		]
+	},
+	{
+        "name": "Revolution",
+	"era": "Ancient era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 30,
+            "Diplomatic": 30,
+            "Domination": 30,
+            "Scientific": 30,
+	    "Religious": 30
+        },
+        "uniques": [
+            "Only available <when below [-10] Happiness>", "Sell [Palace] buildings [in all cities]", "[+10 Happiness] from every [Palace] <for [10] turns> <on [Blitz] game speed>", "[+10 Happiness] from every [Palace] <for [15] turns> <on [Online] game speed>", "[+10 Happiness] from every [Palace] <for [20] turns> <on [Quick] game speed>", "[+10 Happiness] from every [Palace] <for [30] turns> <on [Standard] game speed>", "[+10 Happiness] from every [Palace] <for [45] turns> <on [Epic] game speed>", "[+10 Happiness] from every [Palace] <for [90] turns> <on [Marathon] game speed>", "[+10 Happiness] from every [Palace] <for [135] turns> <on [Endless] game speed>",
+                    "Remove [Tradition] and refund [75]% of its cost", "Remove [Discipline] and refund [75]% of its cost", "Remove [Monarchy] and refund [75]% of its cost", "Remove [Monumentalism] and refund [75]% of its cost", "Remove [Landed Elite] and refund [75]% of its cost", "Remove [Legalism] and refund [75]% of its cost", "Remove [Tradition Complete] and refund [75]% of its cost",
+		    "Remove [Liberty] and refund [75]% of its cost", "Remove [Collective Rule] and refund [75]% of its cost", "Remove [Meritocracy] and refund [75]% of its cost", "Remove [Republic] and refund [75]% of its cost", "Remove [Citizenship] and refund [75]% of its cost", "Remove [Representation] and refund [75]% of its cost", "Remove [Liberty Complete] and refund [75]% of its cost",
+		    "Remove [Expansion] and refund [75]% of its cost", "Remove [Warrior Code] and refund [75]% of its cost", "Remove [City Militia] and refund [75]% of its cost", "Remove [Military Tradition] and refund [75]% of its cost", "Remove [Professional Army] and refund [75]% of its cost", "Remove [State Logistics] and refund [75]% of its cost", "Remove [Expansion Complete] and refund [75]% of its cost",
+		    "Remove [Piety] and refund [75]% of its cost", "Remove [Organized Religion] and refund [75]% of its cost", "Remove [Theocracy] and refund [75]% of its cost", "Remove [Religious Orders] and refund [75]% of its cost", "Remove [Inquisition] and refund [75]% of its cost", "Remove [Monasticism] and refund [75]% of its cost", "Remove [Piety Complete] and refund [75]% of its cost",
+	    	    "Remove [Diplomacy] and refund [75]% of its cost", "Remove [Political Science] and refund [75]% of its cost", "Remove [Machiavellianism] and refund [75]% of its cost", "Remove [Counter Intelligence] and refund [75]% of its cost", "Remove [Mercenary Opportunism] and refund [75]% of its cost", "Remove [Rabblerousing] and refund [75]% of its cost", "Remove [Diplomacy Complete] and refund [75]% of its cost",
+		    "Remove [Commerce] and refund [75]% of its cost", "Remove [Mercantilism] and refund [75]% of its cost", "Remove [Protectionism] and refund [75]% of its cost", "Remove [Free Trade] and refund [75]% of its cost", "Remove [Free Market] and refund [75]% of its cost", "Remove [Market Economy] and refund [75]% of its cost", "Remove [Commerce Complete] and refund [75]% of its cost",
+		    "Remove [Rationalism] and refund [75]% of its cost", "Remove [Secularism] and refund [75]% of its cost", "Remove [Free Thought] and refund [75]% of its cost", "Remove [Scientific Revolution] and refund [75]% of its cost", "Remove [Humanism] and refund [75]% of its cost", "Remove [Sovereignty] and refund [75]% of its cost", "Remove [Rationalism Complete] and refund [75]% of its cost",
+		    "Remove [Individualism] and refund [75]% of its cost", "Remove [Constitution] and refund [75]% of its cost", "Remove [Free Speech] and refund [75]% of its cost", "Remove [Civil Society] and refund [75]% of its cost", "Remove [Universal Suffrage] and refund [75]% of its cost", "Remove [Democracy] and refund [75]% of its cost", "Remove [Individualism Complete] and refund [75]% of its cost",
+		    "Remove [Nationalism] and refund [75]% of its cost", "Remove [Populism] and refund [75]% of its cost", "Remove [Militarism] and refund [75]% of its cost", "Remove [Autarky] and refund [75]% of its cost", "Remove [Police State] and refund [75]% of its cost", "Remove [Total War] and refund [75]% of its cost", "Remove [Nationalism Complete] and refund [75]% of its cost",
+		    "Remove [Internationalism] and refund [75]% of its cost", "Remove [World Expo] and refund [75]% of its cost", "Remove [Cultural Diplomacy] and refund [75]% of its cost", "Remove [Pacifism] and refund [75]% of its cost", "Remove [Global Cooperation] and refund [75]% of its cost", "Remove [International Harmony] and refund [75]% of its cost", "Remove [Internationalism Complete] and refund [75]% of its cost"
+	],
+		"policies": [
+            {
+                "name": "Patriotic War",
+                "uniques": [
+                    "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                    "[+50]% XP gained from combat <for [non-[Air]] units>",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Young Pioneers",
+                "uniques": [
+                    "[+1 Happiness] from every [Workshop]",
+                    "[+1 Happiness] from every [Factory]",
+                    "[+1 Happiness] from every [Solar Plant]",
+                    "[+1 Happiness] from every [Nuclear Plant]",
+                    "[+1 Happiness] from every [Hydro Plant]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Party Leadership",
+                "uniques": [
+                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 11
+            },
+            {
+                "name": "Cultural Revolution",
+                "uniques": [
+                    "[+10]% [Culture] [in all cities] <while the empire is happy>",
+                    "Empire enters golden age",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 6
+            },
+            {
+                "name": "People's Army",
+                "uniques": [
+                    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
+                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
+                    "[+2 Science, +2 Culture] from every [Military Academy]",
+                    "[+2 Science, +2 Culture] from every [Armory]",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
+                "column": 12
+            },
+            {
+                "name": "Revolution Complete",
+                "uniques": [
+            "Only available <when below [-10] Happiness>", "Sell [Palace] buildings [in all cities]", "[+10 Happiness] from every [Palace] <for [10] turns> <on [Blitz] game speed>", "[+10 Happiness] from every [Palace] <for [15] turns> <on [Online] game speed>", "[+10 Happiness] from every [Palace] <for [20] turns> <on [Quick] game speed>", "[+10 Happiness] from every [Palace] <for [30] turns> <on [Standard] game speed>", "[+10 Happiness] from every [Palace] <for [45] turns> <on [Epic] game speed>", "[+10 Happiness] from every [Palace] <for [90] turns> <on [Marathon] game speed>", "[+10 Happiness] from every [Palace] <for [135] turns> <on [Endless] game speed>",
+                    "Remove [Tradition] and refund [75]% of its cost", "Remove [Discipline] and refund [75]% of its cost", "Remove [Monarchy] and refund [75]% of its cost", "Remove [Monumentalism] and refund [75]% of its cost", "Remove [Landed Elite] and refund [75]% of its cost", "Remove [Legalism] and refund [75]% of its cost", "Remove [Tradition Complete] and refund [75]% of its cost",
+		    "Remove [Liberty] and refund [75]% of its cost", "Remove [Collective Rule] and refund [75]% of its cost", "Remove [Meritocracy] and refund [75]% of its cost", "Remove [Republic] and refund [75]% of its cost", "Remove [Citizenship] and refund [75]% of its cost", "Remove [Representation] and refund [75]% of its cost", "Remove [Liberty Complete] and refund [75]% of its cost",
+		    "Remove [Expansion] and refund [75]% of its cost", "Remove [Warrior Code] and refund [75]% of its cost", "Remove [City Militia] and refund [75]% of its cost", "Remove [Military Tradition] and refund [75]% of its cost", "Remove [Professional Army] and refund [75]% of its cost", "Remove [State Logistics] and refund [75]% of its cost", "Remove [Expansion Complete] and refund [75]% of its cost",
+		    "Remove [Piety] and refund [75]% of its cost", "Remove [Organized Religion] and refund [75]% of its cost", "Remove [Theocracy] and refund [75]% of its cost", "Remove [Religious Orders] and refund [75]% of its cost", "Remove [Inquisition] and refund [75]% of its cost", "Remove [Monasticism] and refund [75]% of its cost", "Remove [Piety Complete] and refund [75]% of its cost",
+	    	    "Remove [Diplomacy] and refund [75]% of its cost", "Remove [Political Science] and refund [75]% of its cost", "Remove [Machiavellianism] and refund [75]% of its cost", "Remove [Counter Intelligence] and refund [75]% of its cost", "Remove [Mercenary Opportunism] and refund [75]% of its cost", "Remove [Rabblerousing] and refund [75]% of its cost", "Remove [Diplomacy Complete] and refund [75]% of its cost",
+		    "Remove [Commerce] and refund [75]% of its cost", "Remove [Mercantilism] and refund [75]% of its cost", "Remove [Protectionism] and refund [75]% of its cost", "Remove [Free Trade] and refund [75]% of its cost", "Remove [Free Market] and refund [75]% of its cost", "Remove [Market Economy] and refund [75]% of its cost", "Remove [Commerce Complete] and refund [75]% of its cost",
+		    "Remove [Rationalism] and refund [75]% of its cost", "Remove [Secularism] and refund [75]% of its cost", "Remove [Free Thought] and refund [75]% of its cost", "Remove [Scientific Revolution] and refund [75]% of its cost", "Remove [Humanism] and refund [75]% of its cost", "Remove [Sovereignty] and refund [75]% of its cost", "Remove [Rationalism Complete] and refund [75]% of its cost",
+		    "Remove [Individualism] and refund [75]% of its cost", "Remove [Constitution] and refund [75]% of its cost", "Remove [Free Speech] and refund [75]% of its cost", "Remove [Civil Society] and refund [75]% of its cost", "Remove [Universal Suffrage] and refund [75]% of its cost", "Remove [Democracy] and refund [75]% of its cost", "Remove [Individualism Complete] and refund [75]% of its cost",
+		    "Remove [Nationalism] and refund [75]% of its cost", "Remove [Populism] and refund [75]% of its cost", "Remove [Militarism] and refund [75]% of its cost", "Remove [Autarky] and refund [75]% of its cost", "Remove [Police State] and refund [75]% of its cost", "Remove [Total War] and refund [75]% of its cost", "Remove [Nationalism Complete] and refund [75]% of its cost",
+		    "Remove [Internationalism] and refund [75]% of its cost", "Remove [World Expo] and refund [75]% of its cost", "Remove [Cultural Diplomacy] and refund [75]% of its cost", "Remove [Pacifism] and refund [75]% of its cost", "Remove [Global Cooperation] and refund [75]% of its cost", "Remove [International Harmony] and refund [75]% of its cost", "Remove [Internationalism Complete] and refund [75]% of its cost"
+		],
+        },
+        ]
 	    },
         ]
