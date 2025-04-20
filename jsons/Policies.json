@@ -737,8 +737,9 @@
                     "Double quantity of [Uranium] produced",
                     "[+5 Science] [in capital]"
                 ],
-                "row": 1,
-                "column": 4
+                "requires": ["Universal Healthcare"],
+                "row": 3,
+                "column": 1
             },
             {
                 "name": "Universal Healthcare",
@@ -749,7 +750,7 @@
                     "[+3 Science] from every [Hospital]",
                     "[+5 Food] [in capital]",
                 ],
-                "requires": ["Industrial Espionage", "Third Alternative"],
+                "requires": ["Industrial Espionage", "Covert Action"],
                 "row": 2,
                 "column": 3
             },
@@ -761,16 +762,13 @@
                     "Gain an extra spy",
                     "[2] free [Missionary] units appear", "[2] free [Missionary] units appear <upon entering a new era>"
                 ],
-                "requires": ["Universal Healthcare"],
-                "row": 3,
-                "column": 2
+                "row": 1,
+                "column": 4
             },
-            {
-                "name": "Double Agents",
+		{
+                "name": "Treaty Organization",
                 "uniques": [
-                    "[-100]% enemy spy effectiveness [in all cities connected to capital]",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Merchant] unit>",
-                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Diplomat] unit>",
+                    "[+1 Production, +1 Gold] from every specialist [in all cities]",
                 ],
                 "requires": ["Universal Healthcare"],
                 "row": 3,
@@ -835,9 +833,28 @@
                 "column": 5
             },
             {
-                "name": "Party Leadership",
+                "name": "Double Agents",
                 "uniques": [
-                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                    "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Merchant] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Diplomat] unit>",
+                ],
+                "row": 1,
+                "column": 7
+            },
+            {
+                "name": "Planned Economy",
+                "uniques": [
+                    "[+25]% [Science] from every [Factory]",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 9
+            },
+            {
+                "name": "Avant Garde",
+                "uniques": [
+                    "[+25]% Great Person generation [in all cities]",
                 ],
                 "requires": ["Patriotic War"],
                 "row": 2,
@@ -854,6 +871,27 @@
                 "column": 4
             },
             {
+                "name": "Academy of Sciences",
+                "uniques": [
+                    "[+1 Happiness] from every [Observatory]",
+                    "[+1 Happiness] from every [Public School]",
+                    "[+1 Happiness] from every [Research Lab]",
+                ],
+                "requires": ["Double Agents"],
+                "row": 2,
+                "column": 6
+            },
+            {
+                "name": "Workers Faculties",
+                "uniques": [
+                    "[+25]% [Science] <in cities with a [Factory]>",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]",
+                ],
+                "requires": ["Planned Economy"],
+                "row": 2,
+                "column": 8
+            },
+            {
                 "name": "People's Army",
                 "uniques": [
                     "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
@@ -861,9 +899,18 @@
                     "[+2 Science, +2 Culture] from every [Military Academy]",
                     "[+2 Science, +2 Culture] from every [Armory]",
                 ],
-                "requires": ["Party Leadership", "Cultural Revolution"],
+                "requires": ["Avant Garde", "Cultural Revolution"],
                 "row": 3,
                 "column": 3
+            },
+            {
+                "name": "Party Leadership",
+                "uniques": [
+                    "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
+                ],
+                "requires": ["Academy of Sciences", "Workers Faculties"],
+                "row": 3,
+                "column": 7
             },
             {
                 "name": "Revolution Complete",
