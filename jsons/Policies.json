@@ -840,7 +840,7 @@
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Diplomat] unit>",
                 ],
                 "row": 1,
-                "column": 9
+                "column": 8
             },
             {
                 "name": "Planned Economy",
@@ -868,7 +868,7 @@
                 ],
                 "requires": ["Young Pioneers"],
                 "row": 2,
-                "column": 5
+                "column": 4
             },
             {
                 "name": "Academy of Sciences",
