@@ -840,7 +840,7 @@
                     "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Diplomat] unit>",
                 ],
                 "row": 1,
-                "column": 7
+                "column": 9
             },
             {
                 "name": "Planned Economy",
@@ -849,7 +849,7 @@
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
-                "column": 11
+                "column": 13
             },
             {
                 "name": "Avant Garde",
@@ -879,7 +879,7 @@
                 ],
                 "requires": ["Double Agents"],
                 "row": 2,
-                "column": 7
+                "column": 8
             },
             {
                 "name": "Workers Faculties",
@@ -889,7 +889,7 @@
                 ],
                 "requires": ["Planned Economy"],
                 "row": 2,
-                "column": 8
+                "column": 10
             },
             {
                 "name": "People's Army",
@@ -910,7 +910,7 @@
                 ],
                 "requires": ["Academy of Sciences", "Workers Faculties"],
                 "row": 3,
-                "column": 8
+                "column": 10
             },
             {
                 "name": "Revolution Complete",
