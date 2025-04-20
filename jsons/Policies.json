@@ -796,6 +796,7 @@
         "[Armor] units gain the [Volley] promotion",
             ],
         },
+		*/
         ]
 	    },
 	{
@@ -840,5 +841,6 @@
                 ],
             },
         ],
+		*/
     },
         ]
