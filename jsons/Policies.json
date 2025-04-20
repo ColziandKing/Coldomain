@@ -212,6 +212,7 @@
 	    "Religious": 20
         },
         "uniques": [
+		"Enables conversion of city production to [Faith]",
             "Gain enough Faith for [50]% of a Great Prophet",
 	    "Only available <after founding a Pantheon>",
             "Only available <before adopting [Rationalism]>",
@@ -767,7 +768,7 @@
                     "[+100]% spy effectiveness [City-States]",
                     //Unique for rigging elections
                     "Gain an extra spy",
-                    "[2] free [Missionary] units appear", "[1] free [Missionary] units appear <upon entering a new era>"
+                    "[2] free [Missionary] units appear", "[2] free [Missionary] units appear <upon entering a new era>"
                 ],
                 "requires": ["Universal Healthcare"],
                 "row": 3,
