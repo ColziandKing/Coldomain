@@ -722,15 +722,14 @@
             "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Internationalism]>",
             "[+1 Gold] from every specialist [in all cities] <after adopting [Internationalism]>",
         ],
-        "policies": [	
+        "policies": [	   
             {
-                "name": "Lightning Warfare",
+                "name": "Industrial Espionage",
                 "uniques": [
-                    "[+1] Movement <for [Gunpowder] units>",
-                    "[+1] Movement <for [Armored] units>",
-                    "[+1] Movement <for [Great General] units>",
-                    "[+1] Movement <for [Worker] units>",
-			"Comment [BLITZKRIEG!!!]"
+                    "[+100]% spy effectiveness [in all cities]",
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]",
                 ],
                 "row": 1,
                 "column": 2
@@ -744,44 +743,44 @@
                     "Double quantity of [Oil] produced",
                     "Double quantity of [Aluminum] produced",
                     "Double quantity of [Uranium] produced",
-                    "[+5 Science, +5 Food] [in capital]"
+                    "[+5 Science] [in capital]"
                 ],
                 "row": 1,
                 "column": 4
             },
             {
-                "name": "Young Pioneers",
+                "name": "Universal Healthcare",
                 "uniques": [
-                    "[+1 Happiness] from every [Workshop]",
-                    "[+1 Happiness] from every [Factory]",
-                    "[+1 Happiness] from every [Solar Plant]",
-                    "[+1 Happiness] from every [Nuclear Plant]",
-                    "[+1 Happiness] from every [Hydro Plant]"
+                    "[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
+                    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
+                    "[+3 Science] from every [Medical Lab]",
+                    "[+3 Science] from every [Hospital]",
+                    "[+5 Food] [in capital]",
                 ],
-                "requires": ["Lightning Warfare", "Third Alternative"],
+                "requires": ["Industrial Espionage", "Third Alternative"],
                 "row": 2,
                 "column": 3
             },
             {
-                "name": "People's Army",
+                "name": "Covert Action",
                 "uniques": [
-                    "[+100]% Production when constructing [Military Academy] buildings [in all cities]",
-                    "[+100]% Production when constructing [Armory] buildings [in all cities]",
-                    "[+2 Science, +2 Culture] from every [Military Academy]",
-                    "[+2 Science, +2 Culture] from every [Armory]",
+                    "[+100]% spy effectiveness [City-States]",
+                    //Unique for rigging elections
+                    "Gain an extra spy",
+                    "[2] free [Missionary] units appear", "[1] free [Missionary] units appear <upon entering a new era>"
                 ],
-                "requires": ["Young Pioneers"],
+                "requires": ["Universal Healthcare"],
                 "row": 3,
                 "column": 2
             },
             {
-                "name": "Five-Year Plan",
+                "name": "Double Agents",
                 "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]",
+                    "[-100]% enemy spy effectiveness [in all cities connected to capital]",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Merchant] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Diplomat] unit>",
                 ],
-                "requires": ["Young Pioneers"],
+                "requires": ["Universal Healthcare"],
                 "row": 3,
                 "column": 4
             },
@@ -790,10 +789,9 @@
             "uniques": [
                     "Gain a free [Enhancer] belief <after founding a religion>",
                     "Gain a free [Pantheon] belief <after founding a religion>",
-            "[-100]% maintenance costs <for [Mounted] units>",
-        "[-100]% maintenance costs <for [Armor] units>",
-        "[Mounted] units gain the [Volley] promotion",
-        "[Armor] units gain the [Volley] promotion",
+                    "[+25]% Strength for cities",
+                    "[Fighter] units gain the [Dogfighting I] promotion",
+                    "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion",
             ],
         },
         ]
