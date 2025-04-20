@@ -663,8 +663,8 @@
     },
 	{
 		"name": "Aesthetics",
-		"era": "Classical era",
-		"uniques": ["[Great Artist] is earned [33]% faster"],
+		"era": "Modern era",
+		"uniques": ["[Great Artist] is earned [33]% faster","Enables conversion of city production to [Culture]"],
 		"policies": [
 			{
 				"name": "Cultural Centers",
@@ -710,7 +710,7 @@
 		]
 	},
 	    {
-        "name": "Ideology",
+        "name": "Insurance",
         "era": "Modern era",
         "uniques": [
             "[+1 Gold] from every specialist [in all cities] <after adopting [Nationalism]>",
@@ -786,7 +786,7 @@
                 "column": 4
             },
   {
-            "name": "Ideology Complete",
+            "name": "Insurance Complete",
             "uniques": [
                     "Gain a free [Enhancer] belief <after founding a religion>",
                     "Gain a free [Pantheon] belief <after founding a religion>",
