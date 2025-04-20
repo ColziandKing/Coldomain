@@ -215,8 +215,6 @@
 		"Enables conversion of city production to [Faith]",
             "Gain enough Faith for [50]% of a Great Prophet",
 	    "Only available <after founding a Pantheon>",
-            "Only available <before adopting [Rationalism]>",
-	    "Only available <when religion is enabled>",
         ],
         "policies": [
             {
@@ -288,9 +286,9 @@
             {
                 "name": "Machiavellianism",
                 "uniques": [
-                    "Comment [Gain an extra spy] <when espionage is enabled>", "Comment [+25% spy effectiveness in all cities] <when espionage is enabled>", "Gain an extra spy <when espionage is enabled> <hidden from users>", "[+25]% spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
-			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Comment [+1 [Science], +1 [Gold] for every Remaining City-States Civilizations] <when espionage is disabled>",
-                    "[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]> <when espionage is disabled> <hidden from users>"
+                    "Comment [Gain an extra spy] <when espionage is enabled>", "Comment [+25% spy effectiveness in all cities] <when espionage is enabled>", "Gain an extra spy <hidden from users>", "[+25]% spy effectiveness [in all cities] <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <hidden from users>", "Comment [+1 [Science], +1 [Gold] for every Remaining City-States Civilizations]",
+                    "[+1 Science, +1 Gold] <for every [Remaining [City-States] Civilizations]> <hidden from users>"
                 ],
                 "row": 1,
                 "column": 2
@@ -300,8 +298,8 @@
                 "uniques": [
 			"Comment [-25% enemy spy effectiveness in all cities] <when espionage is enabled>",
 			"Comment [+1 [Happiness] in all cities] <when espionage is disabled>",
-                    "[-25]% enemy spy effectiveness [in all cities] <when espionage is enabled> <hidden from users>",
-		    "[+1 Happiness] [in all cities] <when espionage is disabled> <hidden from users>",
+                    "[-25]% enemy spy effectiveness [in all cities] <hidden from users>",
+		    "[+1 Happiness] [in all cities] <hidden from users>",
 		    "Comment [+50% [Production] when constructing defensive buildings]",
 		    "[+50]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
 		    "[+50]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
@@ -335,15 +333,15 @@
             {
                 "name": "Relations Complete",
                 "uniques": [
-                    "Comment [Promotes all spies 1 time(s)] <when espionage is enabled>", "Comment [New spies start with 1 level(s)] <when espionage is enabled>", "Promotes all spies [1] time(s) <when espionage is enabled> <hidden from users>", "New spies start with [1] level(s) <when espionage is enabled> <hidden from users>",
-			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Comment [Reveal the locations of the cities of the City-States encountered] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <when espionage is disabled> <hidden from users>", "Reveal up to [All] [City center] within a [200] tile radius <when espionage is disabled> <hidden from users>"
+                    "Comment [Promotes all spies 1 time(s)] <when espionage is enabled>", "Comment [New spies start with 1 level(s)] <when espionage is enabled>", "Promotes all spies [1] time(s) <hidden from users>", "New spies start with [1] level(s) <hidden from users>",
+			"Comment [Resting point for Influence with City-States is increased by 10] <when espionage is disabled>", "Comment [Reveal the locations of the cities of the City-States encountered] <when espionage is disabled>", "Resting point for Influence with City-States is increased by [10] <hidden from users>", "Reveal up to [All] [City center] within a [200] tile radius <hidden from users>"
                 ]
             }
         ]
     },
     {
         "name": "Commerce",
-        "era": "Renaissance era",
+        "era": "Medieval era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -412,8 +410,7 @@
 	    "Religious": 0
         },
         "uniques": [
-            "[+1 Culture] from every [Artist]", "[+1 Gold] from every [Merchant]", "[+1 Science] from every [Scientist]", "[+1 Production] from every [Engineer]",
-            "Only available <before adopting [Piety]>"],
+            "[+1 Culture] from every [Artist]", "[+1 Gold] from every [Merchant]", "[+1 Science] from every [Scientist]", "[+1 Production] from every [Engineer]",],
         "policies": [
             {
                 "name": "Secularism",
@@ -476,8 +473,6 @@
         },
         "uniques": [
             "[-15]% Culture cost of adopting new Policies",
-            "Only available <before adopting [Nationalism]>",
-            "Only available <before adopting [Internationalism]>"
         ],
         "policies": [
             {
@@ -539,8 +534,6 @@
         },
         "uniques": [
             "[+15]% Strength <for [{Wounded} {Military}] units>",
-            "Only available <before adopting [Internationalism]>",
-            "Only available <before adopting [Individualism]>"
         ],
         "policies": [
             {
@@ -607,9 +600,7 @@
         },
         "uniques": [
             "When declaring friendship, both parties gain a [15]% boost to great person generation",
-            "Only available <before adopting [Nationalism]>",
-            "Only available <before adopting [Individualism]>"
-        ],
+	],
         "policies": [
             {
                 "name": "World Expo",
@@ -664,7 +655,7 @@
     },
 	{
 		"name": "Aesthetics",
-		"era": "Modern era",
+		"era": "Renaissance era",
 		"uniques": ["[Great Artist] is earned [33]% faster","Enables conversion of city production to [Culture]"],
 		"policies": [
 			{
