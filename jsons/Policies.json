@@ -796,9 +796,9 @@
         "[Armor] units gain the [Volley] promotion",
             ],
         },
-		*/
         ]
 	    },
+	*/
 	{
         "name": "Revolution",
 	"era": "Ancient era",
@@ -841,6 +841,6 @@
                 ],
             },
         ],
-		*/
     },
+	*/
         ]
