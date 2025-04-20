@@ -849,7 +849,7 @@
                     "[+100]% Production when constructing [Factory] buildings [in all cities]"
                 ],
                 "row": 1,
-                "column": 13
+                "column": 12
             },
             {
                 "name": "Avant Garde",
@@ -879,7 +879,7 @@
                 ],
                 "requires": ["Double Agents"],
                 "row": 2,
-                "column": 8
+                "column": 9
             },
             {
                 "name": "Workers Faculties",
@@ -889,7 +889,7 @@
                 ],
                 "requires": ["Planned Economy"],
                 "row": 2,
-                "column": 10
+                "column": 11
             },
             {
                 "name": "People's Army",
