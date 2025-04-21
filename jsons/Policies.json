@@ -714,14 +714,11 @@
             "[+15]% Production when constructing [Land] units [in all cities] <after adopting [Internationalism]>",
             "[+1 Gold] from every specialist [in all cities] <after adopting [Internationalism]>",
         ],
-        "policies": [	   
+        "policies": [	 
             {
-                "name": "Industrial Espionage",
+                "name": "Scholasticism",
                 "uniques": [
-                    "[+100]% spy effectiveness [in all cities]",
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]",
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
                 ],
                 "row": 1,
                 "column": 2
@@ -750,7 +747,7 @@
                     "[+3 Science] from every [Hospital]",
                     "[+5 Food] [in capital]",
                 ],
-                "requires": ["Industrial Espionage", "Covert Action"],
+                "requires": ["Scholasticism", "Covert Action"],
                 "row": 2,
                 "column": 3
             },
@@ -902,6 +899,18 @@
                 "requires": ["Avant Garde", "Cultural Revolution"],
                 "row": 3,
                 "column": 3
+            },  
+            {
+                "name": "Industrial Espionage",
+                "uniques": [
+                    "[+100]% spy effectiveness [in all cities]",
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]",
+                ],
+                "requires": ["Cultural Revolution", "Academy of Sciences"],
+                "row": 3,
+                "column": 7
             },
             {
                 "name": "Party Leadership",
