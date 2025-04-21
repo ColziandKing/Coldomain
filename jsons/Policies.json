@@ -814,7 +814,7 @@
                     "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>",
                 ],
-                "requires": ["Avant Garde"],
+                "requires": ["Avant Garde", "Accelerationism"],
                 "row": 2,
                 "column": 2
             },
@@ -863,7 +863,7 @@
                     "[+10]% [Culture] [in all cities] <while the empire is happy>",
                     "Empire enters golden age",
                 ],
-                "requires": ["Young Pioneers"],
+                "requires": ["Young Pioneers", "Accelerationism"],
                 "row": 2,
                 "column": 4
             },
@@ -874,7 +874,7 @@
                     "[+1 Happiness] from every [Public School]",
                     "[+1 Happiness] from every [Research Lab]",
                 ],
-                "requires": ["Double Agents"],
+                "requires": ["Double Agents", "Industrial Espionage"],
                 "row": 2,
                 "column": 9
             },
@@ -884,7 +884,7 @@
                     "[+25]% [Science] <in cities with a [Factory]>",
                     "[+100]% Production when constructing [Factory] buildings [in all cities]",
                 ],
-                "requires": ["Planned Economy"],
+                "requires": ["Planned Economy", "Industrial Espionage"],
                 "row": 2,
                 "column": 11
             },
@@ -896,7 +896,7 @@
                     "[+2 Science, +2 Culture] from every [Military Academy]",
                     "[+2 Science, +2 Culture] from every [Armory]",
                 ],
-                "requires": ["Patriotic War", "Cultural Revolution", "Accelerationism"],
+                "requires": ["Patriotic War", "Cultural Revolution"],
                 "row": 3,
                 "column": 3
             },    
@@ -932,7 +932,7 @@
                 "uniques": [
                     "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
                 ],
-                "requires": ["Academy of Sciences", "Workers Faculties", "Industrial Espionage"],
+                "requires": ["Academy of Sciences", "Workers Faculties"],
                 "row": 3,
                 "column": 10
             },
