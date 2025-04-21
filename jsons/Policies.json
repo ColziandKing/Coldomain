@@ -814,8 +814,9 @@
                     "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>",
                 ],
-                "row": 1,
-                "column": 1
+                "requires": ["Patriotic War"],
+                "row": 2,
+                "column": 2
             },
             {
                 "name": "Young Pioneers",
@@ -853,9 +854,8 @@
                 "uniques": [
                     "[+25]% Great Person generation [in all cities]",
                 ],
-                "requires": ["Patriotic War"],
-                "row": 2,
-                "column": 2
+                "row": 1,
+                "column": 1
             },
             {
                 "name": "Cultural Revolution",
