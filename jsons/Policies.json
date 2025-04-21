@@ -814,7 +814,7 @@
                     "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>",
                 ],
-                "requires": ["Patriotic War"],
+                "requires": ["Avant Garde"],
                 "row": 2,
                 "column": 2
             },
@@ -896,7 +896,7 @@
                     "[+2 Science, +2 Culture] from every [Military Academy]",
                     "[+2 Science, +2 Culture] from every [Armory]",
                 ],
-                "requires": ["Avant Garde", "Cultural Revolution"],
+                "requires": ["Patriotic War", "Cultural Revolution"],
                 "row": 3,
                 "column": 3
             },  
@@ -908,9 +908,9 @@
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]",
                 ],
-                "requires": ["Cultural Revolution", "Academy of Sciences"],
-                "row": 3,
-                "column": 7
+                "requires": ["Double Agents"],
+                "row": 2,
+                "column": 8
             },
             {
                 "name": "Party Leadership",
