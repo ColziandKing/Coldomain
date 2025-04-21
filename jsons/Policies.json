@@ -899,7 +899,24 @@
                 "requires": ["Patriotic War", "Cultural Revolution"],
                 "row": 3,
                 "column": 3
-            },  
+            },    
+            {
+                "name": "Accelerationism",
+                "uniques": [
+                    "[+1] Movement <for [Gunpowder] units>",
+                    "[+1] Movement <for [Armored] units>",
+                    "[+1] Movement <for [Great General] units>",
+                    "[+1] Movement <for [Worker] units>",
+                    "[+5 Science] from every [Academy]",
+                    "[+5 Production] from every [Manufactory]",
+                    "[+5 Faith] from every [Holy site]",
+                    "[+5 Culture] from every [Landmark]",
+                    "[+5 Gold] from every [Customs house]",
+                ],
+                "requires": ["Young Pioneers"],
+                "row": 2,
+                "column": 6
+            },
             {
                 "name": "Industrial Espionage",
                 "uniques": [
