@@ -896,7 +896,7 @@
                     "[+2 Science, +2 Culture] from every [Military Academy]",
                     "[+2 Science, +2 Culture] from every [Armory]",
                 ],
-                "requires": ["Patriotic War", "Cultural Revolution"],
+                "requires": ["Patriotic War", "Cultural Revolution", "Accelerationism"],
                 "row": 3,
                 "column": 3
             },    
@@ -913,9 +913,8 @@
                     "[+5 Culture] from every [Landmark]",
                     "[+5 Gold] from every [Customs house]",
                 ],
-                "requires": ["Young Pioneers"],
-                "row": 2,
-                "column": 6
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "Industrial Espionage",
@@ -925,16 +924,15 @@
                     "[+1 Production] from every [Mine]",
                     "[+1 Production] from every [Quarry]",
                 ],
-                "requires": ["Double Agents"],
-                "row": 2,
-                "column": 8
+                "row": 1,
+                "column": 10
             },
             {
                 "name": "Party Leadership",
                 "uniques": [
                     "[+2 Food, +2 Gold, +1 Production, +1 Science] [in all cities]",
                 ],
-                "requires": ["Academy of Sciences", "Workers Faculties"],
+                "requires": ["Academy of Sciences", "Workers Faculties", "Industrial Espionage"],
                 "row": 3,
                 "column": 10
             },
